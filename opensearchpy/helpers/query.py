@@ -444,6 +444,10 @@ class Exists(Query):
     name = "exists"
 
 
+class Knn(Query):
+    name = "knn"
+
+
 class MoreLikeThis(Query):
     name = "more_like_this"
 
